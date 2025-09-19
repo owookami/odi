@@ -1,0 +1,20 @@
+name: Repository Index
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 */6 * * *'  # 6시간마다 실행
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update repository activity
+      run: |
+        echo "Last indexed: $(date)" >> .github/index.log
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update index [skip ci]"

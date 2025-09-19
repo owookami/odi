@@ -1,0 +1,10 @@
+# Default owners for everything in the repo
+* @owookami
+
+# Flutter specific files
+*.dart @owookami
+pubspec.yaml @owookami
+
+# Documentation
+*.md @owookami
+docs/ @owookami

@@ -1,0 +1,42 @@
+# AI Integration Configuration for ODI Project
+
+## Repository Information
+- Name: ODI (Open Development Initiative)
+- Owner: owookami
+- URL: https://github.com/owookami/odi
+- Language: Dart/Flutter, Kotlin
+- Type: Mobile Application
+
+## AI Assistance Context
+This repository contains a Flutter mobile application project focused on development automation and AI integration.
+
+## Main Technologies
+- Flutter SDK 3.0+
+- Dart 3.0+
+- Kotlin for Android native
+- Firebase Backend
+- OpenAI/Claude API Integration
+
+## Key Files for AI Understanding
+1. /lib/main.dart - Application entry point
+2. /pubspec.yaml - Dependencies and configuration
+3. /README.md - Project documentation
+4. /lib/features/ - Feature modules
+5. /lib/core/ - Core utilities and constants
+
+## AI Tools Integration
+- ChatGPT: Full repository access for code analysis and suggestions
+- GitHub Copilot: Code completion and generation
+- Claude: Architecture and design consultation
+
+## Preferred AI Assistance Areas
+- Code review and optimization
+- Flutter widget suggestions
+- State management patterns
+- API integration best practices
+- Performance optimization
+- Testing strategies
+
+## Contact
+- GitHub: @owookami
+- Project: Open Development Initiative

@@ -1,0 +1,28 @@
+{
+  "name": "odi",
+  "description": "Open Development Initiative - Flutter/Kotlin Mobile Application",
+  "version": "0.0.1",
+  "type": "mobile",
+  "stack": {
+    "frontend": ["Flutter", "Dart"],
+    "mobile": ["Kotlin", "Swift"],
+    "backend": ["Firebase"],
+    "ai": ["OpenAI API", "Claude API"]
+  },
+  "structure": {
+    "src": "Source code directory",
+    "docs": "Documentation",
+    "tests": "Test files",
+    "lib": "Flutter library files"
+  },
+  "chatgpt_index": {
+    "enabled": true,
+    "last_updated": "2025-01-19",
+    "keywords": ["flutter", "kotlin", "mobile", "ai", "monetization"],
+    "main_files": [
+      "README.md",
+      "pubspec.yaml",
+      "lib/main.dart"
+    ]
+  }
+}
